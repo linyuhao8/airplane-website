@@ -15,7 +15,7 @@
 
 ### 🎥 我的版本（影片展示）
 
-[UI 影片](https://github.com/linyuhao8/airplane-website/blob/main/public/原始考題.png)
+[UI 影片](https://github.com/linyuhao8/airplane-website/blob/main/public/airplane-2k.mp4)
 ![UI](https://github.com/linyuhao8/airplane-website/blob/main/public/ui.png)
 
 > 建議上傳影片到 GitHub Issues 或 PR 討論中取得 `.mp4` 直接連結，也可以用 GitHub repo 的 assets 目錄。
