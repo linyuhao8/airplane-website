@@ -65,7 +65,7 @@ export default function Grid() {
     <div className="bg-white w-full min-h-[300px]">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={20}
+        spaceBetween={0}
         slidesPerView={1}
         breakpoints={{
           640: { slidesPerView: 2 },
@@ -76,21 +76,25 @@ export default function Grid() {
         {data.map((item) => (
           <SwiperSlide
             key={item.id}
-            className="border-r border-gray-300 max-sm:border-b p-5"
+            className="border-r border-gray-300 max-sm:border-b p-10 bg-white"
             style={{ height: "auto" }}
           >
-            <div>
-              <div className="w-full flex justify-center">
+            <div className="bg-white">
+              <span className="bg-[#D7C5B4] w-auto py-1 px-1">
+                {item.manufacturer}
+              </span>
+              <div className="w-full flex justify-center mt-5">
                 <Image
                   src={item.imageUrl} // <-- 這裡改成 item
                   alt={item.title} // <-- 這裡改成 item
                   width={300}
                   height={200}
-                  className="w-[100%] h-auto object-cover"
+                  className="w-[85%] h-auto object-cover"
                 />
               </div>
               <div className="mt-5 flex flex-row justify-between w-full">
                 <div className="flex-col flex items-start">
+                  <span className="text-gray-400 text-sm">{item.year}</span>
                   <h2 className="text-xl font-bold mt-2">{item.title}</h2>{" "}
                   {/* 改成 item */}
                   <p className="text-gray-500 mt-1 text-sm">

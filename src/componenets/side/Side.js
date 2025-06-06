@@ -5,12 +5,18 @@ export default function Side() {
   const [isOpen, setIsOpen] = useState(false);
 
   const menu = [
-    { name: "首頁" },
-    { name: "購票" },
-    { name: "最新消息" },
-    { name: "股東董事會" },
+    { name: "HOME" },
+    { name: "Tickets" },
+    { name: "News" },
+    { name: "Shareholders & Board" },
   ];
-  const secondMenu = [{ name: "設定" }, { name: "聯絡我們" }, { name: "幫助" }];
+
+  const secondMenu = [
+    { name: "Settings" },
+    { name: "Contact Us" },
+    { name: "Help" },
+  ];
+
   const [search, setSearch] = useState("");
 
   const handleSubmit = (e) => {
@@ -63,7 +69,10 @@ export default function Side() {
         </div>
 
         {/* Airplane */}
-        <div className="w-full flex justify-between items-center text-size-md  font-extrabold text-lg">
+        <div
+          className="w-full flex justify-between items-center text-size-md  font-extrabold text-lg"
+          style={{ opacity: 0.6 }}
+        >
           <div>Airplane</div>
           <div>17</div>
         </div>
@@ -111,6 +120,7 @@ export default function Side() {
                 <li
                   key={index}
                   className="text-[#D7C5B4] text-size-md hover:text-white cursor-pointer mb-4 text-lg"
+                  style={{ opacity: 0.6 }}
                 >
                   {item.name}
                 </li>

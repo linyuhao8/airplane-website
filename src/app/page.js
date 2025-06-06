@@ -3,7 +3,7 @@ import MainContent from "@/componenets/main/Main";
 
 export default function App() {
   return (
-    <div className="flex h-screen flex-row flex-nowrap w-full overflow-x-hidden bg-[#fff] max-sm:flex-col">
+    <div className="flex h-screen flex-row flex-nowrap w-full overflow-x-hidden bg-[#393939] max-sm:flex-col">
       <Side />
       <MainContent />
     </div>
