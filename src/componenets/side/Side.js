@@ -40,7 +40,7 @@ export default function Side() {
       <div
         className={`fixed top-0 left-0 z-50 md:static
     flex flex-col justify-between items-start h-full px-6 py-2 bg-[#393939] text-[#D7C5B4]
-    w-full md:w-[35%] lg:w-[25%]
+    w-full md:w-[35%] lg:w-[25%] overflow-y-auto 
     transform transition-transform duration-300 ease-in-out
     ${isOpen ? "translate-x-0" : "-translate-x-full"}
     md:translate-x-0 md:flex`}
