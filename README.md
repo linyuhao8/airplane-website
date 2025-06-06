@@ -1,3 +1,33 @@
+# ✈️ Airline App UI design
+
+最近準備面試時遇到一個 UI 題目，要針對給定 layout 進行美化與重構。因為面試公司是做航空業 App 的，我就用這個方向重新設計介面，並手刻完成前端畫面。
+
+> 不小心花太多時間在設計和開發上，反而筆試的 JS 題只寫了一下 😅
+> 在構思如何怎樣才能設計好看的，然後剛好面的公司是航空相關，就設計成這樣，使用 Next.js、RWD、Swiper。
+
+---
+
+### 🖼 原始題目（Figma）
+
+![原始題目](https://github.com/linyuhao8/airplane-website/blob/main/public/原始考題.png)
+
+---
+
+### 🎥 我的版本（影片展示）
+
+[UI 影片](https://github.com/linyuhao8/airplane-website/blob/main/public/原始考題.png)
+![UI](https://github.com/linyuhao8/airplane-website/blob/main/public/ui.png)
+
+> 建議上傳影片到 GitHub Issues 或 PR 討論中取得 `.mp4` 直接連結，也可以用 GitHub repo 的 assets 目錄。
+
+---
+
+### 🚀 線上試玩（CodeSandbox）
+
+👉 [CodeSandbox Demo](https://codesandbox.io/p/github/linyuhao8/airplane-website/main?import=true&embed=1)
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
