@@ -59,7 +59,7 @@ export default function Side() {
             <h2 className="font-extrabold text-5xl">Air</h2>
           </div>
           <Image
-            src="/World.svg"
+            src="https://raw.githubusercontent.com/linyuhao8/airplane-website/b2caaae809542ec68320dc603644264265dc1eb1/public/World.svg"
             alt="Logo"
             width={50}
             height={50}

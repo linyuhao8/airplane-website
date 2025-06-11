@@ -19,7 +19,8 @@ export default function Grid() {
       title: "Airbus A330-300",
       description:
         "A wide-body aircraft known for its fuel efficiency and long-range capabilities. Used extensively for international travel.",
-      imageUrl: "/3N1.png",
+      imageUrl:
+        "https://raw.githubusercontent.com/linyuhao8/airplane-website/refs/heads/main/public/3N1.png",
       year: 1993,
       manufacturer: "Airbus",
     },
@@ -28,7 +29,8 @@ export default function Grid() {
       title: "Airbus A310",
       description:
         "A twin-engine, medium- to long-range aircraft introduced in the 1980s. Known for its versatility and reliability.",
-      imageUrl: "/3N1.png",
+      imageUrl:
+        "https://raw.githubusercontent.com/linyuhao8/airplane-website/refs/heads/main/public/3N1.png",
       year: 1983,
       manufacturer: "Airbus",
     },
@@ -37,7 +39,8 @@ export default function Grid() {
       title: "Airbus A220-300",
       description:
         "A modern, fuel-efficient narrow-body jet ideal for short- to medium-haul flights. Offers excellent passenger comfort.",
-      imageUrl: "/3N1.png",
+      imageUrl:
+        "https://raw.githubusercontent.com/linyuhao8/airplane-website/refs/heads/main/public/3N1.png",
       year: 2016,
       manufacturer: "Airbus (formerly Bombardier)",
     },
@@ -46,7 +49,8 @@ export default function Grid() {
       title: "Airbus A220-300",
       description:
         "A modern, fuel-efficient narrow-body jet ideal for short- to medium-haul flights. Offers excellent passenger comfort.",
-      imageUrl: "/3N1.png",
+      imageUrl:
+        "https://raw.githubusercontent.com/linyuhao8/airplane-website/refs/heads/main/public/3N1.png",
       year: 2016,
       manufacturer: "Airbus (formerly Bombardier)",
     },
@@ -55,7 +59,8 @@ export default function Grid() {
       title: "Airbus A220-300",
       description:
         "A modern, fuel-efficient narrow-body jet ideal for short- to medium-haul flights. Offers excellent passenger comfort.",
-      imageUrl: "/3N1.png",
+      imageUrl:
+        "https://raw.githubusercontent.com/linyuhao8/airplane-website/refs/heads/main/public/3N1.png",
       year: 2016,
       manufacturer: "Airbus (formerly Bombardier)",
     },
